@@ -1,0 +1,158 @@
+body {
+	background-color: #e2e9ed;
+	font-family: Arial;	
+	font-size: 13px;
+	line-height: 1.04;
+	color: #112433;
+	margin: 0;
+}
+
+h1, h2, ul, p {
+	margin: 0;
+}
+
+header {
+	position: relative;
+	margin-top: 36px;
+}
+
+header img.logo {
+	position: absolute;
+	left: 31px;
+	top: -2px;
+}
+
+header h1 {
+	width: 300px;
+	font-weight: bold;
+	font-size: 71px;
+	line-height: 0.83;
+	text-transform: uppercase;
+}
+
+header h1,
+nav ul,
+main article,
+footer {
+	padding-left: 232px;
+}
+
+nav ul {
+	margin-top: 38px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav li {
+	display: inline-block;
+	width: 116px;
+	text-transform: uppercase;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #112433
+}
+
+main {
+	padding-top: 19px;
+}
+
+article {
+	position: relative;
+	padding-top: 14px;
+	padding-right: 83px;
+	overflow: auto;
+}
+
+article.article-even {
+	background-color: #7a3052;
+	color: #e2e9ed;
+}
+
+article h2 {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 17px;
+	margin-bottom: 14px;
+}
+
+article p {
+	margin-bottom: 10px;
+}
+
+article ul.tags {
+	margin: 20px 0;
+	padding-left: 0;
+}
+
+article ul.tags li {
+	display: inline-block;
+	padding-right: 22px;
+}
+
+article ul.tags li a {
+	text-decoration: none;
+	color: #80878c;
+}
+
+article.article-even ul.tags li a
+{
+	color: #8f6e83;
+}
+
+
+article div.rating {
+	position: absolute;
+	left: 72px;
+	top: 47px;
+	width: 141px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+	text-align: right;
+}
+
+article div.rating .upvote,
+article div.rating .downvote {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url("../img/thumbs.png") no-repeat 0 0;
+}
+
+article div.rating .upvote,
+article div.rating .downvote,
+article div.rating .score {
+	vertical-align: middle;
+}
+
+article.article-odd div.rating .upvote {
+	background-position: -32px 0;
+}
+
+article.article-odd div.rating .downvote {
+	background-position: 0 0;
+}
+
+article.article-even div.rating .upvote {
+	background-position: -32px -32px;
+}
+
+article.article-even div.rating .downvote {
+	background-position: 0 -32px;
+}
+
+article div.rating .score {
+	padding: 0 3px 0 1px;
+}
+
+footer {
+	background-color: #112433;
+	color: #e2e9ed;	
+}
+
+footer p {
+	padding: 10px 0;
+	font-size: 9px;
+}
